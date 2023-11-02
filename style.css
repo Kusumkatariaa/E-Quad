@@ -43,3 +43,8 @@ background-size: cover;
 #tick{
     font-size: 200px;
 }
+.main{
+    height: 90rem;
+    width: 84.3rem;
+    background-image: url(./harmony\ 1.jpg);
+}
