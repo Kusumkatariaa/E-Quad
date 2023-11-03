@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Futura'; /* Font name to reference */
+    src: url('./futura\ \(1\)/') format('woff2') ;/* Specify font format and file path */
+    font-weight: normal; /* Adjust font-weight if necessary */
+    font-style: normal; /* Adjust font-style if necessary */
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +12,7 @@
 html,body{
    width: 100%;
    height: 100%;
-
+   font-family: 'Futura', sans-serif;
 }
 #center{
 background-image: url(./pricing\ images/bg.png);
@@ -43,8 +49,52 @@ background-size: cover;
 #tick{
     font-size: 200px;
 }
-.main{
+#main{
     height: 90rem;
     width: 84.3rem;
+    background-image: url(./Comingsoon\ images/harmony\ 1.jpg);
+}
+#background{
+    height: 42rem;
+    width: 84.3rem;
+    background-color: #1D1C1C;
+    /* padding: 15vh 10vw; */
+}
+
+#contain{
+    height: 35rem;
+    /* margin-top: 2rem; */
+
+}
+.login-page{
+    height: 35rem;
+    padding: 1rem 6rem;
+    background-color: #161616;
+}
+.side-page{
+    padding-top: 9rem;
+    padding-left: 3rem;
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+    margin-left: -0.9vw;
     background-image: url(./harmony\ 1.jpg);
+
+}
+.form-control::placeholder {
+    color: #ffffff;
+}
+.no-border {
+    border: 2px solid black;
+}
+.forgot-password-link {
+    color: blue; 
+
+}
+.dd{
+   margin-top: 25vh;
+}
+#TC{
+    color: blue; 
+
 }
